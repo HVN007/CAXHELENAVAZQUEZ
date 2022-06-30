@@ -1,0 +1,43 @@
+
+print("Welcome to Oxxo")
+name=input("Who is this? ")
+print("Hello there", name)
+
+p1=input("What is the first product? ")
+c1=int(input("What is the price of the product? "))
+       
+pr2=input("What is the second product? ")
+c2=int(input("What is the price of the profuct? "))
+
+p3=input("What is the third product? ")
+c3=int(input("What is the price of the product? "))
+
+p4=input("What is the forth product? ")
+c4=int(input("What is the price of the product? "))
+
+p5=input("What is the fifth product? ")
+c5=int(input("What is the price of the product? "))
+
+print("———————————————————————")
+print("Thanks for buying in Oxxo")
+print("You were attended by ", name)
+print("Your products you bought are: ")
+print(p1)
+print("That costs",c1)
+print(pr2)
+print("That costs",c2)
+print(p3)
+print("That costs",c3)
+print(p4)
+print("That costs",c4)
+print(p5)
+print("That costs",c5)
+print(".     ") 
+Total=(c1+c2+c3+c4+c5)
+print("Your total without IVA is:",Total)
+IVA=(Total*0.16)
+print("Your IVA equals:", IVA)
+Stotal=(Total+IVA)
+print("Your Total is", Stotal)
+print("———————————————")
+print("Thank you for your purchase")
